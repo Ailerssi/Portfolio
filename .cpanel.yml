@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export REPOPATH=/home/kuratnik/repositories/Portfolio*
+    - export REPOPATH=/home/kuratnik/repo/Portfolio*
     - export SITEPATH=/home/kuratnik/public_html/
     - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
