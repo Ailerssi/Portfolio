@@ -4,5 +4,3 @@ deployment:
     - export REPOPATH=/home/kuratnik/repo/Portfolio*
     - export SITEPATH=/home/kuratnik/public_html/
     - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
-    - cd public_html
-    - chmod 777 Portfolio -R
