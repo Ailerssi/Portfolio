@@ -161,7 +161,7 @@
                     </a>
                 </div>
                 <div class="col-md-6">
-                    <a href="" class="portfolio-card">
+                    <a href="https://project.kuratnik.by/" class="portfolio-card">
                         <img class="portfolio-card-img" src="assets/imgs/project.png" class="img-responsive rounded">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
